@@ -16,12 +16,12 @@ variable "vcenter_name" {
   description = "The name of your vCenter Target as you see it in Intersight (could be an IP address)"
 }
 
-variable "Passphrase" {
-  type = string
-  description = "The Passphrase for the administrator@vsphere.local user of your vCenter environment"
-}
-
-variable "ssh_keys" {
+variable "ssh_key" {
   type = string
   description = "The ssh_key for the IKS cluster"
+}
+
+variable "vc_password" {
+  type = string
+  description = "The password for your vCenter"
 }
