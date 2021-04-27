@@ -4,7 +4,6 @@ secretkey        = "path to your api key or the key as a string"
 organization     = "default"
 
 #vCenter Settings
-vcenter_name     = "name of your vcenter target in Intersight"
 vc_password      = "vCenter Administrator@vsphere.local password"
 
 #K8s Cluster Settings 

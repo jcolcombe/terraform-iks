@@ -3,7 +3,7 @@ module "iks" {
   version             = "0.9.20"
   
   # Infra Config Policy Information
-  cluster_name        = "iks-tenant-a"
+  cluster_name        = "tenant-a"
   # cluster_action    = "Deploy"
   vc_target_name      = "10.61.124.9"
   vc_portgroup        = [ "vlan99-99" ]

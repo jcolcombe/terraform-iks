@@ -11,10 +11,6 @@ variable "organization" {
   description = "Organization Name"
   default = "default"
 }
-variable "vcenter_name" {
-  type = string
-  description = "The name of your vCenter Target as you see it in Intersight (could be an IP address)"
-}
 
 variable "ssh_key" {
   type = string
