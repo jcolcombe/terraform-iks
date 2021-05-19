@@ -2,20 +2,20 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/ciscodevnet/intersight" {
-  version     = "1.0.7"
-  constraints = ">= 1.0.7, 1.0.7"
+  version     = "1.0.8"
+  constraints = ">= 1.0.7"
   hashes = [
-    "h1:lNX6xZ6eUl+/tHTTkWBey60Nq4+0ik1BIak46gT/2zY=",
-    "zh:015767be7c77ba4d8d8978800d20a1a4c60dd821ebf188b7ae9f197b9071c420",
-    "zh:02acb5946c1b0f46c3d99156a75cf3acb155e15421922471038460ca41d89a95",
-    "zh:0cca86f51c245d56cfddc5cd2a9cda3764d4116bcb327babaf1cddfcff04f6cb",
-    "zh:12510bf13c341bd78a31ac36cf3d418864e5c88ec380208274104d2bc096c5aa",
-    "zh:2639958775f34585b72269b6b6ea7817fc45dd1e2be0ec1f68df25ba2fdc38f9",
-    "zh:33d53484141f4dec99c405270d4dfd8ce91ae00aa77aa9cf9f8851716ee6717a",
-    "zh:3f731e61dd2782a7558d89e36ece17cf2df98c11a6a91c7dc981b96a6369aeef",
-    "zh:57c1412f5111a9aba3319c6c7f3723e2406877370238263c5b30365e41b697f7",
-    "zh:5f71656ad6d9803d773ece6fcea20ce4b4edefeea0cee7f74e7b189a6d5260b9",
-    "zh:b913e7b99d3099f2df15ef9960ce2a9a04a4fc5f05e2fdef65345d2834d400c1",
-    "zh:f9a3f858fdf4868483ed64b07795027ac1e59a50925829950c0e075e501ee6ee",
+    "h1:3yCvpIapeCGX5hqq9nVcNgGnhYpS4DUEJTNXk3aSTM4=",
+    "zh:09b4129f47c80152698043b6bdd7735b3a9070af94f7fcd463922bdd8ecc0120",
+    "zh:0c468d5d242feedb76538ba3d68b31457d4525ab7f30d567c80564780d89871b",
+    "zh:0fd72f70a9b0326baac4cef854a8c8a12df8f8631629f8e7cc5338430ee12ae5",
+    "zh:3bef8e34b84e22697790b997b37e3bb7b324eaee259f6b9a22d824b310f6a8d5",
+    "zh:3cd8d4494221e91e8dbbf07478fca441fa307c7abb1b652761e9b0b3e44f4ada",
+    "zh:3ff69d3c12f281983b623d671faad9d983ba32b9c5a0228db817b2a19702f0ad",
+    "zh:4a40d25a4beeb717089670f7f80afaf001e5ad301b38a6194dd3adf90b0ce4ad",
+    "zh:b30106a53c7301bf3d2a7ac86cdfcb2cbc9dfb14cdf7f4ecb07a3ba1c07c520e",
+    "zh:da3237cc6519411d119c78242d91708bdb420d7f674d50282e9187e2511d027a",
+    "zh:e2f2287003a6b974508b074f9b962c111eafe4e2638e69a48bdc880458d8e47b",
+    "zh:e514c057e9255cf104810e3c563dfd3b52e8362b63481f5a7c9d645faeb4cc0f",
   ]
 }
