@@ -1,6 +1,6 @@
 module "iks" {
   source              = "terraform-cisco-modules/iks/intersight"
-  #version             = "0.9.20"
+  version             = "0.9.20"
   
   # Infra Config Policy Information
   cluster_name        = "cluster-a1"
@@ -25,7 +25,7 @@ module "iks" {
   # service_cidr      = "100.64.0.0/24"
   domain_name         = "galaxy.cisco.com"
   timezone            = "America/New_York"
-  ip_primary_ntp      = "10.2.1.172"
+  #ip_primary_ntp      = "10.2.1.172"
 
   # Cluster information
   ssh_user            = "iksadmin"
