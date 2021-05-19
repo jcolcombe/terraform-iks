@@ -25,7 +25,7 @@ module "iks" {
   # service_cidr      = "100.64.0.0/24"
   domain_name         = "galaxy.cisco.com"
   timezone            = "America/New_York"
-  # ip_primary_ntp      = "ntp.esl.cisco.com"
+  ip_primary_ntp      = "10.2.1.172"
 
   # Cluster information
   ssh_user            = "iksadmin"
