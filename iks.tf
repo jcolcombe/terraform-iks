@@ -1,10 +1,10 @@
-module "iks" {
-  source              = "terraform-cisco-modules/iks/intersight"
+module "iks-amslab" {
+  source              = "app.terraform.io/Cisco-IST-TigerTeam/iks-amslab/intersight"
   version             = "0.9.20"
   
   # Infra Config Policy Information
   cluster_name        = "cluster-b1"
-  cluster_action    = "Deploy"
+  cluster_action      = "Deploy"
   vc_target_name      = "vcenter-amslab.cisco.com"
   vc_portgroup        = [ "vm-network-99" ]
   vc_datastore        = "HX-ACI" 
@@ -23,6 +23,10 @@ module "iks" {
   # Network Configuration Settings
   domain_name         = "amslab.cisco.com"
   timezone            = "Europe/Amsterdam"
+  http_proxy          = "proxy.esl.cisco.com"
+  https_proxy         = "proxy.esl.cisco.com"
+  http_proxy_port     = 80
+  https_proxy_port    = 80
 
   # Cluster information
   ssh_user            = "iksadmin"
@@ -33,3 +37,5 @@ module "iks" {
   # Organization
   organization        = var.organization
 }
+
+
