@@ -1,6 +1,7 @@
 module "iks-amslab" {
+  #source              = "../../terraform-intersight-iks"
   source              = "app.terraform.io/Cisco-IST-TigerTeam/iks-amslab/intersight"
-  version             = "0.9.20"
+  version             = "0.9.22"
   
   # Infra Config Policy Information
   cluster_name        = "cluster-b1"
@@ -19,6 +20,7 @@ module "iks-amslab" {
   ip_gateway          = "10.61.125.1"
   ip_primary_dns      = "10.61.124.15"
   ip_secondary_dns    = "10.61.124.16"
+  ip_primary_ntp      = "ntp.esl.cisco.com"
 
   # Network Configuration Settings
   domain_name         = "amslab.cisco.com"
