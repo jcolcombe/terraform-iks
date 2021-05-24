@@ -1,7 +1,7 @@
 module "iks-amslab" {
   #source              = "../../terraform-intersight-iks"
   source              = "app.terraform.io/Cisco-IST-TigerTeam/iks-amslab/intersight"
-  version             = "0.9.22"
+  version             = "0.9.23"
   
   # Infra Config Policy Information
   cluster_name        = "cluster-b1"
