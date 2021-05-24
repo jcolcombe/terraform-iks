@@ -4,12 +4,12 @@ module "iks" {
   
   # Infra Config Policy Information
   cluster_name        = "cluster-b1"
-  # cluster_action    = "Deploy"
+  cluster_action    = "Deploy"
   vc_target_name      = "vcenter-amslab.cisco.com"
   vc_portgroup        = [ "vm-network-99" ]
   vc_datastore        = "HX-ACI" 
   vc_cluster          = "HX-ACI"
-  vc_resource_pool    = ""
+  vc_resource_pool    = "tenant-b"
   vc_password         = var.vc_password
 
   # IP Pool Information
