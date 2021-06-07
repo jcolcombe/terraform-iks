@@ -21,11 +21,8 @@ module "iks" {
   ip_secondary_dns    = "10.2.1.172"
 
   # Network Configuration Settings
-  # pod_cidr          = "100.65.0.0/16"
-  # service_cidr      = "100.64.0.0/24"
   domain_name         = "galaxy.cisco.com"
   timezone            = "America/New_York"
-  #ip_primary_ntp      = "10.2.1.172"
 
   # Cluster information
   ssh_user            = "iksadmin"
