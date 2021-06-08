@@ -4,7 +4,7 @@ module "iks" {
   
   # Infra Config Policy Information
   cluster_name        = "cluster-a1"
-  cluster_action      = "Deploy"
+  cluster_action      = "Delete"
   vc_target_name      = "gffa-vcenter.galaxy.cisco.com"
   vc_portgroup        = ["DV_VLAN1056"]
   vc_datastore        = "CCPdatastore"
