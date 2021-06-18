@@ -4,7 +4,7 @@ module "iks-amslab" {
   version             = "0.9.23"
 
   # Infra Config Policy Information
-  cluster_name        = "RTP-Sandpit01"
+  cluster_name        = "rtp-iks-01"
   cluster_action      = "Deploy"
   vc_target_name      = "vc2.dcv.svpod"
   vc_portgroup        = [ "sandpit|IST|demo" ]
